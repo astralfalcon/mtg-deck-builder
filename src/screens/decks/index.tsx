@@ -1,4 +1,5 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome'
 import { TouchableOpacity, Button, View, Text } from 'react-native'
 
 //
@@ -12,7 +13,7 @@ export default class DecksScreen extends React.Component {
         onPress={() => navigation.navigate('Builder')}
         style={{ padding: 20 }}
       >
-        <Text>+</Text>
+        <FontAwesomeIcon icon="plus" style={{ color: '#007AFF' }} />
       </TouchableOpacity>
     )
   })
