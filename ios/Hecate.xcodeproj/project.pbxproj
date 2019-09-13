@@ -18,6 +18,7 @@
 		2DCD954D1E0B4F2C00145EB5 /* HecateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* HecateTests.m */; };
 		6CA8C1AA2E87EE4026F2988C /* libPods-Hecate-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A59EB392EFF0A85E5EA005A /* libPods-Hecate-tvOSTests.a */; };
 		7D16D77FBF616453FEA3EF15 /* libPods-Hecate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FEED2C7FAE1B7D47B72FDCE4 /* libPods-Hecate.a */; };
+		AA3D1844232C3A77002DF05F /* schema.sql in Resources */ = {isa = PBXBuildFile; fileRef = AA3D1843232C3A77002DF05F /* schema.sql */; };
 		ECB2C9D3CC1F9F1D4B53F3CC /* libPods-Hecate-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB8019362CE71C889F0E7DF7 /* libPods-Hecate-tvOS.a */; };
 		EED77C6B07BA3D7047DEA64E /* libPods-HecateTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B54B4EDE3F97F277A83F9B44 /* libPods-HecateTests.a */; };
 /* End PBXBuildFile section */
@@ -60,6 +61,7 @@
 		88899CC9D3A82F11EB72D00B /* Pods-Hecate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hecate.debug.xcconfig"; path = "Target Support Files/Pods-Hecate/Pods-Hecate.debug.xcconfig"; sourceTree = "<group>"; };
 		A289F31E9EBE592C311BD4EF /* Pods-Hecate-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hecate-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Hecate-tvOS/Pods-Hecate-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		A62FC58F22F9769B34BFF5D3 /* Pods-Hecate-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hecate-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Hecate-tvOSTests/Pods-Hecate-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		AA3D1843232C3A77002DF05F /* schema.sql */ = {isa = PBXFileReference; lastKnownFileType = text; path = schema.sql; sourceTree = "<group>"; };
 		B54B4EDE3F97F277A83F9B44 /* libPods-HecateTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HecateTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA46BA2A0960D49CD235F78D /* Pods-Hecate-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hecate-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Hecate-tvOSTests/Pods-Hecate-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -132,6 +134,7 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				AA3D1843232C3A77002DF05F /* schema.sql */,
 			);
 			name = Hecate;
 			sourceTree = "<group>";
@@ -340,6 +343,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA3D1844232C3A77002DF05F /* schema.sql in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
