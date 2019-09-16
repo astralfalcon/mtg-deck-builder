@@ -20,7 +20,7 @@ const DeckBuilderStack = createStackNavigator(
   }
 )
 
-const TabNavigator = createBottomTabNavigator({
+const TabNavigator: any = createBottomTabNavigator({
   Decks: DeckBuilderStack,
   Community: CommunityScreen,
   Profile: ProfileScreen

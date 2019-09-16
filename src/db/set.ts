@@ -3,17 +3,17 @@ import { Entity, PrimaryGeneratedColumn, Column, BaseEntity } from 'typeorm'
 @Entity()
 export class Set extends BaseEntity {
   @PrimaryGeneratedColumn()
-  id: number
+  id!: number
 
-  @Column()
-  name: string
+  @Column({ type: 'text' })
+  name!: string
 
-  @Column()
-  code: string
+  @Column({ type: 'text' })
+  code!: string
 
-  @Column()
-  arenaCode: string
+  @Column({ type: 'text' })
+  arenaCode!: string
 
-  @Column()
-  keyrune: string
+  @Column({ type: 'text' })
+  keyrune!: string
 }

@@ -1,12 +1,18 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome'
 import { TouchableOpacity, Button, View, Text } from 'react-native'
+import { NavigationScreenProp } from 'react-navigation'
 
-//
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+export interface DecksScreenProps {
+  navigation: NavigationScreenProp<any>
+}
 
-export default class DecksScreen extends React.Component {
-  static navigationOptions = ({ navigation }) => ({
+export default class DecksScreen extends React.Component<DecksScreenProps> {
+  static navigatirnOptions = ({
+    navigation
+  }: {
+    navigation: NavigationScreenProp<any>
+  }) => ({
     title: 'Decks',
     headerRight: (
       <TouchableOpacity

@@ -5,12 +5,14 @@
   "scripts": {
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "bundle-ios": "react-native bundle --entry-file index.js --platform ios --dev false --bundle-output ios/main.jsbundle --assets-dest ios"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "1.2.22",
     "@fortawesome/free-solid-svg-icons": "5.10.2",
     "@fortawesome/react-native-fontawesome": "0.1.0",
+    "@react-native-community/async-storage": "1.6.1",
     "immutable": "4.0.0-rc.12",
     "react": "16.8.6",
     "react-native": "0.60.5",
